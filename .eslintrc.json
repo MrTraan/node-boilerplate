@@ -3,5 +3,23 @@
 	"extends": "airbnb",
 	"plugins": [
 		"import"
-	]
+	],
+	"env": {
+		"es6": true
+	},
+	"rules": {
+		"no-underscore-dangle": [
+			"error",
+			{
+				"allowAfterThis": true
+			}
+		],
+		"no-plus-plus": "off",
+		"no-param-reassign": [
+			"error",
+			{
+				"props": false
+			}
+		]
+	}
 }
