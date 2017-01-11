@@ -14,7 +14,7 @@
 				"allowAfterThis": true
 			}
 		],
-		"no-plus-plus": "off",
+		"no-plusplus": "off",
 		"no-param-reassign": [
 			"error",
 			{
